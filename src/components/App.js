@@ -6,7 +6,7 @@ function App() {
 
   // replace 'false' with a state variable that can be toggled between true and false
   // this will be used for the Dark Mode Toggle feature
-  const [mode, setMode] = useState(true);
+  const [mode, setMode] = useState(false);
   const appClass = mode ? "App dark" : "App light";
   const modeBtn = mode ? "Dark Mode" : "Light Mode";
 
